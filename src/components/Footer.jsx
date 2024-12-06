@@ -64,7 +64,7 @@ const Footer = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-             Imaging Service
+              Imaging Service
             </Link>
             <Link
               to="services"
@@ -90,6 +90,18 @@ const Footer = () => {
               +880 1715 133114
             </Link>
           </nav>
+          <div className="mt-4">
+            <iframe
+              title="Google Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.522717668913!2d89.75585446864322!3d23.728732344028373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe3f1d6de80723%3A0xdee933c376d74123!2sMedicare%20Diagnostic%20Lab!5e0!3m2!1sen!2sbd!4v1733484875747!5m2!1sen!2sbd"
+              width="100%"
+              height="200"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
       <div>
