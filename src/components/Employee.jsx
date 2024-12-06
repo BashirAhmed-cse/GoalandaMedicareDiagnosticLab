@@ -4,36 +4,37 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import employeeImg from "../assets/img/employee.png";
 
 const Employee = () => {
   const data = [
     {
-      img: "/src/assets/img/employee.png",
+      img: employeeImg,
       name: "M Jahirul Islam Kiron",
       specialties: "Managing Director",
     },
     {
-      img: "/src/assets/img/employee.png",
+      img: employeeImg,
       name: "Akter Hossain",
       specialties: "Accountant",
     },
     {
-      img: "/src/assets/img/employee.png",
+      img: employeeImg,
       name: "Mr Kamrul Islam",
       specialties: "Senior Marketing Executive",
     },
     {
-      img: "/src/assets/img/employee.png",
+      img: employeeImg,
       name: "Md Billah",
       specialties: "Marketing Executive",
     },
     {
-      img: "/src/assets/img/employee.png",
+      img: employeeImg,
       name: "Mr. Tusar Khan",
       specialties: "Manager",
     },
     {
-      img: "/src/assets/img/employee.png",
+      img: employeeImg,
       name: "Mr Aziz Chaudhury",
       specialties: "Admin Officer",
     },

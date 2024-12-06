@@ -4,36 +4,37 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import doctorImg from "../assets/img/default.png";
 
 const Doctors = () => {
   const data = [
     {
-      img: "/src/assets/img/default.png",
+      img: doctorImg,
       name: "Dr. Wazed Zamil",
       specialties: "Medicine Specialist",
     },
     {
-      img: "/src/assets/img/default.png",
+      img: doctorImg,
       name: "Dr. Md Akter Hossain",
       specialties: "Neurologist",
     },
     {
-      img: "/src/assets/img/default.png",
+      img: doctorImg,
       name: "Dr. Bodhrun Naher",
       specialties: "Paediatrics",
     },
     {
-      img: "/src/assets/img/default.png",
+      img: doctorImg,
       name: "Dr. Masum Billah",
       specialties: "Oral & Dental Surgery",
     },
     {
-      img: "/src/assets/img/default.png",
+      img: doctorImg,
       name: "Dr. Emdadul Haque Tusar",
       specialties: "Ophthalmologist",
     },
     {
-      img: "/src/assets/img/default.png",
+      img: doctorImg,
       name: "Prof. Dr. Md. Mohibul Aziz",
       specialties: "General Surgery",
     },
