@@ -10,6 +10,11 @@ import doctor3 from "../assets/img/d-2.jpg";
 import doctor4 from "../assets/img/d-4.jpeg";
 import doctor5 from "../assets/img/d-5.jpeg";
 import doctor6 from "../assets/img/d-7.jpeg";
+import doctor8 from "../assets/img/d-8.jpg";
+import doctor9 from "../assets/img/d-9.jpg";
+import doctor10 from "../assets/img/d-10.jpg";
+import doctor11 from "../assets/img/d-11.jpg";
+import doctor12 from "../assets/img/d-12.jpg";
 
 const Doctors = () => {
   const data = [
@@ -42,6 +47,31 @@ const Doctors = () => {
       img: doctor6,
       name: "Dr. Reshma Khanom",
       specialties: "General Surgery",
+    },
+    {
+      img: doctor8,
+      name: "Dr. Mahbubor Rahman",
+      specialties: "Cardiology",
+    },
+    {
+      img: doctor9,
+      name: "Professor Dr. Salimur Rahman",
+      specialties: "Medicine",
+    },
+    {
+      img: doctor10,
+      name: "Dr. Mariam Faruqui",
+      specialties: "Gynecologist",
+    },
+    {
+      img: doctor11,
+      name: "Dr. Md. Saifullah",
+      specialties: "Laparoscopic",
+    },
+    {
+      img: doctor12,
+      name: "DR. MOUDUDUL HAQUE",
+      specialties: "Spine Specialist",
     },
   ];
 

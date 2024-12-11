@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import Button from "../layouts/Button";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Contact from "../models/Contact";
 
-const Navbar = () => {
+const Navbar = ({ onShowTeam }) => {
   const [menu, setMenu] = useState(false);
   const [showForm, setShowForm] = useState(false);
 
@@ -77,6 +76,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              onClick={onShowTeam}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
               Team
@@ -149,14 +149,17 @@ const Navbar = () => {
             Doctors
           </Link>
           <Link
-            to="blog"
+            to="employee"
             spy={true}
             smooth={true}
             duration={500}
             className=" hover:text-hoverColor transition-all cursor-pointer"
-            onClick={closeMenu}
+            onClick={() => {
+              closeMenu(); // Close the menu
+              onShowTeam(); // Show the Team section
+            }}
           >
-            Blog
+            Team
           </Link>
 
           <div className=" lg:hidden">

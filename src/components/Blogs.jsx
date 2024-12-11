@@ -7,6 +7,12 @@ import img3 from "../assets/img/health.jpg";
 import img4 from "../assets/img/blog4.jpg";
 import img5 from "../assets/img/blog5.jpg";
 import img6 from "../assets/img/blog6.jpg";
+import img7 from "../assets/img/blog-7.png";
+import img8 from "../assets/img/blog-8.png";
+import img9 from "../assets/img/covid1111.jpg";
+import img10 from "../assets/img/covid2222.jpg";
+import img11 from "../assets/img/Screenshot_3.jpg";
+import img12 from "../assets/img/Screenshot_2.jpg";
 
 const Blogs = () => {
   return (
@@ -33,6 +39,12 @@ const Blogs = () => {
           <BlogCard img={img4} headlines="" />
           <BlogCard img={img5} headlines="" />
           <BlogCard img={img6} headlines="" />
+          <BlogCard img={img7} headlines="" />
+          <BlogCard img={img8} headlines="" />
+          <BlogCard img={img9} headlines="" />
+          <BlogCard img={img10} headlines="" />
+          <BlogCard img={img11} headlines="" />
+          <BlogCard img={img12} headlines="" />
         </div>
       </div>
     </div>
