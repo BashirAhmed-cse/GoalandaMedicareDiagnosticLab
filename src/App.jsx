@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -9,9 +9,19 @@ import Footer from "./components/Footer";
 import Employee from "./components/Employee";
 
 const App = () => {
+  const [showTeam, setShowTeam] = useState(false); // State to control Team visibility
+
+  const handleShowTeam = () => {
+    setShowTeam(true); // Show the Team section
+  };
+
+  const handleHideTeam = () => {
+    setShowTeam(false); // Hide the Team section
+  };
+
   return (
     <div>
-      <Navbar />
+      <Navbar onShowTeam={handleShowTeam} />
 
       <main>
         <div id="home">
@@ -29,9 +39,12 @@ const App = () => {
         <div id="doctors">
           <Doctors />
         </div>
-        <div id="employee">
-          <Employee />
-        </div>
+
+        {showTeam && ( // Conditionally render the Team section
+          <div id="employee">
+            <Employee />
+          </div>
+        )}
 
         <div id="blog">
           <Blogs />
