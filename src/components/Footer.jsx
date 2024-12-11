@@ -43,6 +43,15 @@ const Footer = () => {
             >
               Doctors
             </Link>
+            <Link
+              to="employee"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className=" hover:text-hoverColor transition-all cursor-pointer"
+            >
+              Team
+            </Link>
           </nav>
         </div>
         <div>

@@ -4,38 +4,43 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
-import doctorImg from "../assets/img/default.png";
+import doctor1 from "../assets/img/d-1.jpeg";
+import doctor2 from "../assets/img/d-3.jpeg";
+import doctor3 from "../assets/img/d-2.jpg";
+import doctor4 from "../assets/img/d-4.jpeg";
+import doctor5 from "../assets/img/d-5.jpeg";
+import doctor6 from "../assets/img/d-7.jpeg";
 
 const Doctors = () => {
   const data = [
     {
-      img: doctorImg,
-      name: "Dr. Wazed Zamil",
+      img: doctor1,
+      name: "Dr. Khairul Bashar",
       specialties: "Medicine Specialist",
     },
     {
-      img: doctorImg,
+      img: doctor2,
       name: "Dr. Md Akter Hossain",
       specialties: "Neurologist",
     },
     {
-      img: doctorImg,
-      name: "Dr. Bodhrun Naher",
+      img: doctor3,
+      name: "Dr. Sharmina Haque",
       specialties: "Paediatrics",
     },
     {
-      img: doctorImg,
+      img: doctor4,
       name: "Dr. Masum Billah",
       specialties: "Oral & Dental Surgery",
     },
     {
-      img: doctorImg,
+      img: doctor5,
       name: "Dr. Emdadul Haque Tusar",
       specialties: "Ophthalmologist",
     },
     {
-      img: doctorImg,
-      name: "Prof. Dr. Md. Mohibul Aziz",
+      img: doctor6,
+      name: "Dr. Reshma Khanom",
       specialties: "General Surgery",
     },
   ];

@@ -30,9 +30,9 @@ const Blogs = () => {
             img={img3}
             headlines="Basic Check-up "
           />
-          <BlogCard img={img4} headlines="Navigating Mental Health" />
-          <BlogCard img={img5} headlines="The Importance of Regular Exercise" />
-          <BlogCard img={img6} headlines="Skin Health 101" />
+          <BlogCard img={img4} headlines="" />
+          <BlogCard img={img5} headlines="" />
+          <BlogCard img={img6} headlines="" />
         </div>
       </div>
     </div>
